@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natniti Topup</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f8f8f8;
+      padding: 50px;
+    }
+    h1 {
+      color: red;
+    }
+    button {
+      padding: 15px 25px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      background-color: #ff4444;
+      color: white;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    button:hover {
+      background-color: #cc0000;
+    }
+    #prank {
+      margin-top: 20px;
+      display: none;
+    }
+    img {
+      max-width: 300px;
+      margin-top: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>ກະລຸນາກົດປຸ່ມເພື່ອດຳເນີນການຕໍ່ນີ້ 👇</h1>
+  <button onclick="showPrank()">ດຳເນີນການຕໍ່</button>
+
+  <div id="prank">
+    <h2>ຄວຍ</h2>
+    <img src="https://i.ibb.co/zFYZsPc/trollface.png" alt="Troll Face">
+  </div>
+
+  <script>
+    function showPrank() {
+      document.getElementById("prank").style.display = "block";
+    }
+  </script>
+</body>
+</html>
